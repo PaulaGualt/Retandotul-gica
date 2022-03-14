@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/inicio.css">
+  <title>inicio</title>
+</head>
+
+<body>
+  <div id="contenedorDatos">
+    <form>
+      <label for="primerNumero">Primer Número</label>
+      <input type="number" id="primerNumero" step="0.001" required name="primerNumero" placeholder="Numero Positivo" />
+      <label for="segundoNumero">Segundo Número</label>
+      <input type="number" id="segundoNumero" step="0.001" required name="segundoNumero"
+        placeholder="Numero Positivo" /><br />
+
+      <button id="ingresarDatos" type="submit">Ingresar datos</button>
+
+      <button id="ingresarDatos" type="reset">Limpiar datos</button>
+    </form>
+
+    <div id="advertencias"> </div>
+  </div>
+  <div id="contenedorBotones">
+    <div class="buttons">
+      <h1>Hallar el menor de dos números enteros positivos</h1>
+      <img src="./images/menor.png" alt="singo menor"> <br>
+      <button id="botonNumeroMenor" class="button">Ver resultado</button><br />
+    </div>
+    <div class="buttons">
+      <h1>Determinar si los números ingresados son iguales</h1>
+      <img src="./images/igual.png" alt="signo igual"><br>
+      <button id="botonIguales" class="button" type="submit">Ver resultado</button><br />
+    </div>
+    <div class="buttons">
+      <h1>Intercambiar los valores de los dos números</h1>
+      <img src="./images/intercambiar.png" alt="signo de intercambio"><br>
+      <button id="botonAlternarNumeros" class="button" type="submit">Ver resultado</button><br />
+    </div>
+    <div class="buttons">
+      <h1>Sumar los dos números</h1>
+      <img src="./images/suma.png" alt="signo suma"><br>
+      <button id="botonSumarNumeros" class="button" type="submit">Ver resultado</button><br />
+    </div>
+  </div>
+
+  <script src="./scripts/form.js"></script>
+  <script src="./scripts/menor.js"></script>
+</body>
+
+</html>

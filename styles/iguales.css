@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Fredoka:wght@500&family=League+Gothic&family=Montserrat:wght@300&family=Raleway:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #D5DBDB ;
+    font-size: 10px;
+    text-align: center;
+    
+}
+#contenedorResul{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #62b01f;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5%;
+    border-radius: 30px;
+}
+#contenedorResul #contenedorResulIguales{
+    background-color: #D5DBDB;
+    padding: 2%;
+    margin-bottom: 3px;
+    border-radius: 15px;
+}
